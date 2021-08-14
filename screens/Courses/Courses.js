@@ -9,8 +9,8 @@ const Courses = createStackNavigator()
 
 const CoursesScreen = () => (
     <Courses.Navigator>
-        <Courses.Screen name='Main' component={MainScreen} />
-        <Courses.Screen name='Card' component={CourseCard} />
+        <Courses.Screen name='Course Main' component={MainScreen} />
+        <Courses.Screen name='Course Card' component={CourseCard} />
     </Courses.Navigator>
 )
 

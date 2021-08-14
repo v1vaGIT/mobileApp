@@ -2,7 +2,7 @@ import 'react-native-gesture-handler';
 import React from 'react';
 
 import CoursesScreen from './screens/Courses/Courses'
-import ExamsScreen from './screens/Exams'
+import ExamsScreen from './screens/Exams/Exams'
 import ResultsScreen from './screens/Results'
 
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';

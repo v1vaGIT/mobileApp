@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import { View, Text, StyleSheet, Button, TouchableOpacity} from 'react-native'
 import { FlatList } from 'react-native-gesture-handler'
-import { course_data } from '../../data/coursesArr'
+import { exam_data } from '../../data/examsArr'
 
 export const MainScreen = ({ navigation }) => {
 
     const renderItem = ({ item }) => {
         return (
-            <TouchableOpacity onPress={() => navigation.navigate('Course Card', {
+            <TouchableOpacity onPress={() => navigation.navigate('Exam Card', {
                 title: item.title
             })}>
                 <Text>{item.title}</Text>
@@ -18,7 +18,7 @@ export const MainScreen = ({ navigation }) => {
     return (
         <View style={styles.container}>
             <FlatList
-                data={course_data}
+                data={exam_data}
                 renderItem={renderItem}
                 keyExtractor={(item) => item.id} />
         </View>
