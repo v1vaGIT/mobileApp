@@ -9,7 +9,7 @@ const Exams = createStackNavigator()
 
 const ExamsScreen = () => [
     <Exams.Navigator>
-        <Exams.Screen name='Exam Main' component={MainScreen} />
+        <Exams.Screen name='Экзамены' component={MainScreen} />
         <Exams.Screen name='Exam Card' component={ExamCard} />
     </Exams.Navigator>
 ]

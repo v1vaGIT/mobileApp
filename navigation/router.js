@@ -14,9 +14,9 @@ export default function AppNavigator() {
   return(
     <NavigationContainer>
       <Tabs.Navigator>
-        <Tabs.Screen name='Courses' component={CoursesScreen} />
-        <Tabs.Screen name='Exams' component={ExamsScreen} />
-        <Tabs.Screen name='Results' component={ResultsScreen} />
+        <Tabs.Screen name='Курсы' component={CoursesScreen} />
+        <Tabs.Screen name='Экзамены' component={ExamsScreen} />
+        <Tabs.Screen name='Ведомость' component={ResultsScreen} />
       </Tabs.Navigator>
     </NavigationContainer>
   )
